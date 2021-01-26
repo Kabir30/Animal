@@ -1,0 +1,498 @@
+/**********
+*Global CSS*
+***********/ 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+        display: none;
+      }
+input:focus{
+	outline: none;
+}
+button:focus{
+	outline: none;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+}
+/*******************
+*Header Section CSS*
+*******************/
+.header-section{
+	width: 100%;
+	position: absolute;
+	background-color: rgba(0,0,0, .2);
+}
+.nav-link{
+	margin-right: 30px !important;
+	font-size: 24px; 
+}
+.form-control{
+	background-color: #fcc302 !important;
+	padding: .8rem .75rem !important;
+	border:1px solid #fcc302;
+	color: #fff !important;
+	border-radius: 0px !important;
+}
+.input-group input::placeholder{
+	color: #fff !important;
+}
+.input-group-text{
+	background:#00bec9 !important;
+	border: none;
+	border-radius: 0px !important;
+}
+.input-group .input-group-text a{
+	color: #fff;
+}
+/*******************
+*Banner Section CSS*
+*******************/
+.banner-section{
+	width: 100%;
+	background-color: #fcc302;
+	padding: 120px 0;
+}
+.banner-section h1{
+	 margin-top: 120px;
+	 font-size: 67px;
+	 font-weight: 600;
+	 color:#fff;
+}
+.banner-section p{
+	margin: 30px 0;
+	font-size: 30px;
+	font-weight: 300;
+	color:#fff;
+}
+.btn-primary{
+	background-color: #00bec9 !important;
+	border-color: #00bec9 !important;
+}
+/********************
+*Service Section CSS*
+*********************/
+.service-section{
+	width: 100%;
+	padding: 120px 0;
+}
+.service-section h2{
+	font-size: 50px;
+	font-weight: 600;
+	word-spacing: 3px;
+	margin-top: 80px;
+}
+.service-section p{
+	font-size: 30px;
+	font-weight: 400;
+	color: #333;
+	margin:40px 0;
+}
+.service-section button{
+	background: #fcc302;
+	padding: 16px;
+	font-size: 21px;
+	font-weight: 600;
+}
+.service-video{
+	position: relative;
+}
+.service-video img{}
+.service-video .shadow{
+	position: absolute;
+	top:0;
+	right: 20px;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(252,195,2, .5);
+}
+.service-video .box{
+	height: 150px;
+	width: 150px;
+	top:360px;
+	left: -30px;
+	background:rgb(252,195,2);
+	position: absolute;
+	z-index: -2;
+}
+.service-video .video-icon i{
+	position: absolute;
+	left: 40%;
+	top:40%;
+	height: 80px;
+	width: 80px;
+	background:#fff;
+	text-align: center;
+	line-height: 80px;
+	border-radius: 50%;
+	color: #fcc302;
+	font-size: 22px
+}
+/*****************
+*Service Type CSS*
+*****************/
+.service-type{
+	background-color: #fcc302;
+	width: 100%;
+	padding: 120px 0;
+}
+.service-type h1{
+	font-size: 75px;
+	font-weight: 700;
+	color: #fff;
+}
+.service-type p{
+	font-size: 34px;
+	font-weight: 300;
+	color: #fff;
+	width: 70%;
+	margin: 30px auto 70px;
+}
+.card{
+	border:0px !important;
+	background-color: transparent;
+
+}
+.card img{
+	margin: 0 55px;
+}
+.card-title {
+    margin: 30px 0 !important;
+    color: #fff;
+    font-size: 38px;
+    font-weight: 600;
+}
+.card-body{
+	background: #fcc302 !important;
+	padding: 0;
+}
+.card-text{
+	font-size:16px !important;
+	font-size: 25px;
+	font-weight: 300;
+	color: #fff;
+}
+/*********************
+*Service-section2 CSS*
+*********************/
+.service-section2{
+	width: 100%;
+	padding: 120px 0;
+}
+.service-section2 h2{
+	font-size: 50px;
+	font-weight: 600;
+	word-spacing: 3px;
+	margin-top: 80px;
+}
+.service-section2 p{
+	font-size: 30px;
+	font-weight: 400;
+	color: #333;
+	margin:40px 0;
+	text-align: right;
+}
+.service-section2 button{
+	background: #fcc302;
+	padding: 16px;
+	font-size: 21px;
+	font-weight: 600;
+}
+.service-video2{
+	position: relative;
+}
+.service-video2 img{}
+.service-video2 .shadow{
+	position: absolute;
+	top:0;
+	right: 20px;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(252,195,2, .5);
+}
+.service-video2 .box{
+	height: 150px;
+	width: 150px;
+	bottom:-20px;
+	right: -10px;
+	background:rgb(252,195,2);
+	position: absolute;
+	z-index: -2;
+	
+}
+.service-video2 .video-icon i{
+	position: absolute;
+	left: 40%;
+	top:40%;
+	height: 80px;
+	width: 80px;
+	background:#fff;
+	text-align: center;
+	line-height: 80px;
+	border-radius: 50%;
+	color: #fcc302;
+	font-size: 22px
+}
+/*******************
+*Buying Section CSS*
+*******************/
+.buying-section{
+	width: 100%;
+	padding: 120px 0;
+	background-color: #fcc302;
+}
+.buying-section h1{
+	font-size: 75px;
+	font-weight: 700;
+	color: #fff;
+}
+.buying-section p{
+	font-size: 34px;
+	font-weight: 300;
+	color: #fff;
+	width: 70%;
+	margin: 30px auto 70px;
+}
+.price{
+	margin: 30px 0;
+}
+.price span del{
+	color: #fff;
+	font-size: 42px;
+	font-weight: 600;
+	margin-right: 20px;
+}
+.price span{
+	color: #fff;
+	font-size: 42px;
+	font-weight: 600;
+}
+.buying-section button{
+	font-size: 25px;
+	font-weight: 600;
+	color: #fff;
+	width: 150px;
+	height: 50px;
+	border:none;
+	background:#00bec9;
+	border-radius: 50px;
+}
+/*****************
+*Team Section CSS*
+*****************/
+.team-section{
+	width: 100%;
+	padding: 120px 0;
+}
+.team-section h1{
+	font-size: 75px;
+	font-weight: 700;
+	color: #333;
+}
+.team-section p{
+	font-size: 34px;
+	font-weight: 300;
+	color: #333;
+	width: 70%;
+	margin: 30px auto 60px;
+}
+.team-section .member-info{
+	margin: 30px 0;
+}
+.member-info h4{
+	font-size: 30px;
+	font-weight: 700;
+	color: #000;
+}
+.member-info p{
+	font-size: 25px;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.team-section .social-icon{}
+.team-section .social-icon ul{
+	margin: 0;
+    padding: 0
+}
+.team-section .social-icon ul li{
+	display: inline-block;
+    width: 30px;
+    background: #daac00;
+    margin-right: 10px;
+    height: 30px;
+    border-radius: 50%;
+    line-height: 32px;
+}
+.team-section .social-icon ul li a{
+	color: #fff;
+}
+/********************
+*Counter Section CSS*
+********************/
+.counter-section{
+	background-image: linear-gradient(rgba(252, 195, 2, 0.8), rgba(252, 195, 2, 0.8)), url(../img/counter.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	padding: 150px 0;
+}
+.counter-section li{
+	margin-bottom: 30px;
+}
+.counter-section li a{
+	color: #fff;
+	font-size: 80px;
+}
+.counter-section span{
+	font-size: 42px;
+	font-weight: 500;
+	color: #fff;
+}
+.counter-section p{
+	font-size: 38px;
+	font-weight: 700;
+	color: #fff;
+}
+/*****************
+*Post Section CSS*
+*****************/
+.post-section {
+	width: 100%;
+	padding: 120px 0;
+}
+.post-section h1{
+	font-size: 75px;
+	font-weight: 700;
+	color: #333;
+
+}
+.post-section p{
+	font-size: 34px;
+	font-weight: 300;
+	color: #333;
+	width: 70%;
+	margin: 30px auto 60px;
+}
+.post-section img{
+
+}
+.post{
+	text-align: left;
+    width: 90%;
+    margin: 0 23px;
+    padding: 0 30px;
+    box-shadow: 0px 2px 0px 2px #d6d6d6;
+}
+
+}
+.post-heading{
+
+}
+.post-heading h3{
+	font-size: 25px;
+    font-weight: 600;
+    color: #333;
+    margin: 15px 0;
+}
+.post-heading h4{
+	font-size: 17px;
+    font-weight: 400;
+    color: #00bec9;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.post-text{
+	text-align: left;
+}
+.post-text p{
+	font-size: 17px;
+	font-weight: 400;
+	text-align: left;
+	margin: 0 !important;
+	width: 100%;
+
+}
+.post-text a{
+	font-size: 21px;
+	font-weight: 500;
+	color: #00bec9;
+	display:inline-block;
+	margin: 30px 0;
+}
+/*******************
+*Footer Section CSS*
+*******************/
+.footer-section{
+	width: 100%;
+	padding: 120px 0;
+	background: #343434;
+	color: #fff;
+}
+.footer-section h2{
+	font-size: 38px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+.footer-section p{
+	font-size: 25px;
+	font-weight: 400;
+	margin-bottom: 45px;
+}
+.footer-section ul{
+	padding: 0;
+}
+.footer-section ul li{
+	margin-bottom: 10px;
+}
+.footer-section ul li a{
+	font-size: 25px;
+	font-weight: 400;
+	color: #fff;
+}
+.footer-section .form-control{
+	background-color: #fcc302 !important;
+	padding: 1.5rem 1rem !important;
+	border:1px solid #fcc302;
+	color: #fff !important;
+	border-radius: 0px !important;
+}
+.footer-section .input-group{
+	width: 70% !important;
+	margin-left: auto;
+}
+.footer-section .social-icon{
+	margin-top: 30px;
+
+}
+.footer-section .social-icon ul {
+	text-align: right;
+}
+.footer-section .social-icon ul li{
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	border-radius: 50%;
+	background: #fff;
+	margin-right: 15px; 
+}
+.footer-section .social-icon ul li a{
+	color: #333;
+	font-size: 30px;
+	font-weight: 500;
+}

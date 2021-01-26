@@ -474,6 +474,13 @@ body{
 	width: 70% !important;
 	margin-left: auto;
 }
+.footer-section .input-group-text{
+	padding: .375rem 3rem !important;
+}
+.footer-section .input-group .input-group-text a {
+    color: #fff;
+    font-size: 35px;
+}
 .footer-section .social-icon{
 	margin-top: 30px;
 
